@@ -1,0 +1,41 @@
+// * ===== fonts ===== * //
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+@import "_fonts";
+@import "_icons"; //<li class="icon-call-right"> Contact us</li>  пример (см. _icons.scss)
+@import "_nullstyles";
+
+// * ===== variables ===== * //
+$headerHeight: 51px;
+$headerBackgroundColor: #fff;
+
+// * ===== blocks ===== * //
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a:focus {
+  border-bottom: #12a19a;
+}
+a:hover {
+  border-bottom: 2px solid #12a19a;
+}
+
+.wrapper {
+  padding-top: $headerHeight + 17px;
+  min-height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 0px 20px;
+  box-sizing: content-box;
+}
+
+// * ===== header ===== * //
+@import "_header";
+@import "_header-menu";
+
+// * ===== main ===== * //
+
+// * ===== footer ===== * //

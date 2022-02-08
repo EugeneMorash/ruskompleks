@@ -47,10 +47,12 @@
   &__logo {
     flex: 0 0 50px;
     height: 30px;
-    // border-radius: 50%;
     background-color: #fff;
     position: relative;
     z-index: 9;
+  }
+  &__logo:hover {
+    border: none;
   }
 
   &__menu {

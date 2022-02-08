@@ -224,6 +224,7 @@ a:hover {
   z-index: 900;
   -webkit-box-shadow: 0px 0px 3px 0.1px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 3px 0.1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 320px;
 }
 
 .header__row {
@@ -247,6 +248,10 @@ a:hover {
   background-color: #fff;
   position: relative;
   z-index: 9;
+}
+
+.header__logo:hover {
+  border: none;
 }
 
 .header__menu {
@@ -306,7 +311,7 @@ body._lock {
     min-width: 100%;
     top: 0;
     left: 0;
-    height: 51px;
+    height: 68px;
     background-color: #fff;
     z-index: 9;
   }

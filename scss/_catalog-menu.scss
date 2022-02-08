@@ -1,0 +1,22 @@
+.catalog-menu {
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__column {
+    flex: 0 1 25%;
+  }
+
+  &__item {
+  }
+
+  &__link {
+  }
+
+  &__image {
+  }
+
+  &__text {
+  }
+}

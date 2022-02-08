@@ -1,0 +1,28 @@
+.page {
+  margin-top: 32px;
+
+  &__heading {
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 42px;
+    margin-bottom: 9px;
+  }
+
+  &__subheading {
+    background-color: #5ca099;
+    margin-bottom: 38px;
+  }
+
+  &__subheading-text {
+    height: 41px;
+    font-size: 21.6px;
+    font-weight: 100;
+    line-height: 19px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  &__catalog-menu {
+  }
+}

@@ -1,7 +1,7 @@
 // * ===== fonts ===== * //
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 @import "_fonts";
-@import "_icons"; //<li class="icon-call-right"> Contact us</li>  пример (см. _icons.scss)
+@import "_icons";
 @import "_nullstyles";
 
 // * ===== variables ===== * //
@@ -37,5 +37,7 @@ a:hover {
 @import "_header-menu";
 
 // * ===== main ===== * //
+@import "_main";
+@import "_catalog-menu";
 
 // * ===== footer ===== * //

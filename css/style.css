@@ -436,10 +436,6 @@ body._lock {
   }
 }
 
-.catalog-menu {
-  display: none;
-}
-
 .catalog-menu__row {
   display: -webkit-box;
   display: -ms-flexbox;

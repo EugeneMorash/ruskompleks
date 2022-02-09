@@ -1,0 +1,73 @@
+.callback {
+  margin-top: 42px;
+
+  &__row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 23.3px;
+    line-height: 23.3px;
+    font-weight: 100;
+    margin-right: 51px;
+  }
+
+  input {
+    width: 220px;
+    height: 34px;
+    box-shadow: 1px 1.73px 5px #0c0e0f;
+    margin-right: 9px;
+    padding: 0px 5px;
+  }
+
+  input:focus {
+    box-shadow: 1px 1.73px 14px #0c0e0f;
+  }
+
+  button {
+    width: 126px;
+    height: 34px;
+    border-radius: 2px;
+    background-color: #5ca099;
+    font-size: 15.5px;
+    color: #fff;
+    box-shadow: 1px 1.73px 5px #0c0e0f;
+  }
+
+  button:hover {
+    box-shadow: 1px 1.73px 14px #0c0e0f;
+  }
+  button:focus {
+    box-shadow: 1px 1.73px 14px #0c0e0f;
+  }
+}
+
+@media (max-width: 1300px) {
+  .callback {
+    &__text {
+      font-size: 20px;
+      line-height: 150%;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .callback {
+    &__row {
+      flex-wrap: wrap;
+    }
+    &__text {
+      margin-bottom: 10px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .callback {
+    input {
+      margin-bottom: 10px;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+  }
+}

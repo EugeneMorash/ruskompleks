@@ -1,4 +1,6 @@
 .catalog-menu {
+  display: none;
+
   &__row {
     display: flex;
     flex-wrap: wrap;
@@ -17,9 +19,18 @@
     flex-direction: column;
   }
 
+  &__link {
+    text-align: center;
+    color: #000;
+    font-size: 19.4px;
+    line-height: 25px;
+    transition: all 0.3s ease 0s;
+  }
+
   &__link:hover {
     .catalog-menu__text::before {
       background-color: #5ca099;
+      transition: all 0.3s ease 0s;
     }
   }
   &__link:focus {
@@ -27,14 +38,6 @@
       background-color: #5ca099;
     }
   }
-
-  &__link {
-    text-align: center;
-    color: #000;
-    font-size: 19.4px;
-    line-height: 25px;
-  }
-
   &__image {
     padding-bottom: 64.2096%;
     width: 100%;
@@ -72,8 +75,6 @@
   .catalog-menu {
     &__column {
       flex: 0 1 33.33%;
-      padding: 0px 30px;
-      margin-bottom: 48px;
     }
   }
 }
@@ -81,8 +82,6 @@
   .catalog-menu {
     &__column {
       flex: 0 1 50%;
-      padding: 0px 30px;
-      margin-bottom: 48px;
     }
   }
 }
@@ -90,8 +89,6 @@
   .catalog-menu {
     &__column {
       flex: 0 1 100%;
-      padding: 0px 30px;
-      margin-bottom: 48px;
     }
   }
 }

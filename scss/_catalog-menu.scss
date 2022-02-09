@@ -17,7 +17,12 @@
     flex-direction: column;
   }
 
-  &__wrap-link:hover {
+  &__link:hover {
+    .catalog-menu__text::before {
+      background-color: #5ca099;
+    }
+  }
+  &__link:focus {
     .catalog-menu__text::before {
       background-color: #5ca099;
     }
@@ -60,5 +65,33 @@
     top: -31px;
     left: 50%;
     transform: translate(-50%, 0%);
+  }
+}
+
+@media (max-width: 950px) {
+  .catalog-menu {
+    &__column {
+      flex: 0 1 33.33%;
+      padding: 0px 30px;
+      margin-bottom: 48px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .catalog-menu {
+    &__column {
+      flex: 0 1 50%;
+      padding: 0px 30px;
+      margin-bottom: 48px;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .catalog-menu {
+    &__column {
+      flex: 0 1 100%;
+      padding: 0px 30px;
+      margin-bottom: 48px;
+    }
   }
 }

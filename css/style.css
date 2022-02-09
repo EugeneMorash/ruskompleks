@@ -464,6 +464,10 @@ body._lock {
           flex-direction: column;
 }
 
+.catalog-menu__wrap-link:hover .catalog-menu__text::before {
+  background-color: #5ca099;
+}
+
 .catalog-menu__link {
   text-align: center;
   color: #000;
@@ -486,4 +490,22 @@ body._lock {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.catalog-menu__text {
+  position: relative;
+}
+
+.catalog-menu__text::before {
+  content: "";
+  z-index: -1;
+  width: 203px;
+  height: 16.4px;
+  border-radius: 50%;
+  background-color: #707070;
+  position: absolute;
+  top: -31px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
 }

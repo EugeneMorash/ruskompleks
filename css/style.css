@@ -643,11 +643,18 @@ body._lock {
 
 .welder {
   background-image: url(./../img/back-welder.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .welder__row {
   padding-top: 162.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .welder__subheading {
@@ -699,9 +706,6 @@ body._lock {
 }
 
 @media (max-width: 425px) {
-  .welder__row {
-    padding-top: 50px;
-  }
   .welder__subheading {
     text-align: center;
     font-size: 40px;
@@ -718,7 +722,7 @@ body._lock {
 
 .storage {
   background-image: url(./../img/back-pogruz.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .storage__row {
@@ -758,7 +762,6 @@ body._lock {
   color: #000;
   z-index: 1;
   margin-bottom: 136px;
-  padding-left: 28px;
 }
 
 .storage__para-text {
@@ -788,20 +791,51 @@ body._lock {
   margin-bottom: 183px;
 }
 
-@media (max-width: 425px) {
-  .welder__row {
-    padding-top: 50px;
+@media (max-width: 1300px) {
+  .storage__para-text {
+    color: #fff;
   }
-  .welder__subheading {
+}
+
+@media (max-width: 768px) {
+  .storage__row {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .storage__title {
+    margin-left: 19px;
+  }
+}
+
+@media (max-width: 600px) {
+  .storage__row {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .storage__title {
+    margin-left: 19px;
+  }
+  .storage__button-row {
+    margin-right: 0;
+  }
+  .storage__button-row button {
+    margin-right: 19px;
+  }
+}
+
+@media (max-width: 460px) {
+  .storage__subheading {
     text-align: center;
     font-size: 40px;
   }
-  .welder__title {
+  .storage__title {
     text-align: center;
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .welder__button-row {
+  .storage__button-row {
     margin-bottom: 50px;
   }
 }

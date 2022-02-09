@@ -1,7 +1,11 @@
-@font-face {
-    font-family: "Archangelsk";
-    src: url("Archangelsk.woff2") format("woff2"), url("Archangelsk.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+@mixin font($fontFamily, $fileName, $fontWeight, $fontStyle) {
+    @font-face {
+        font-display: swap;
+        font-family: $fontFamily;
+        src: url("./../fonts/#{$fileName}.woff2") format("woff2"), url("./../fonts/#{$fileName}.woff") format("woff");
+        font-weight: #{$fontWeight};
+        font-style: #{$fontStyle};
+    }
 }
+
+@include font("Archangelsk", "Archangelsk", "400", "normal");

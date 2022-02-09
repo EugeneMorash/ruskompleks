@@ -376,6 +376,12 @@ body._lock {
   }
 }
 
+@media (max-width: 767.984px) and (max-width: 450px) {
+  .header__logo img {
+    max-width: 250px;
+  }
+}
+
 .page {
   margin-top: 32px;
 }
@@ -404,6 +410,30 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 1250px) {
+  .page__heading {
+    font-size: 36px;
+  }
+  .page__subheading-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page__heading {
+    font-size: 24px;
+  }
+  .page__subheading-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .page__subheading-text {
+    font-size: 10px;
+  }
 }
 
 .catalog-menu__row {

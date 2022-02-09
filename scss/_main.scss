@@ -26,3 +26,31 @@
   &__catalog-menu {
   }
 }
+
+@media (max-width: 1250px) {
+  .page {
+    &__heading {
+      font-size: 36px;
+    }
+    &__subheading-text {
+      font-size: 16px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .page {
+    &__heading {
+      font-size: 24px;
+    }
+    &__subheading-text {
+      font-size: 12px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .page {
+    &__subheading-text {
+      font-size: 10px;
+    }
+  }
+}

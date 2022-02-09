@@ -87,6 +87,9 @@
     &__title {
       margin-left: 19px;
     }
+    &__para-text {
+      margin-right: 19px;
+    }
     &__button-row {
       button {
         margin-right: 19px;
@@ -107,8 +110,13 @@
       font-size: 20px;
       margin-bottom: 20px;
     }
+    &__para-text {
+      margin-left: 19px;
+    }
     &__button-row {
-      margin-bottom: 50px;
+      button {
+        margin-bottom: 50px;
+      }
     }
   }
 }

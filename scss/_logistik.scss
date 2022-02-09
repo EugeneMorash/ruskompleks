@@ -1,5 +1,5 @@
-.welder {
-  background-image: url(./../img/back-welder.png);
+.logistik {
+  background-image: url(./../img/back-logist.png);
   background-size: cover;
 
   &__row {
@@ -10,7 +10,7 @@
 
   &__subheading {
     position: relative;
-    color: #fff;
+    color: #000;
     margin-bottom: -7px;
     z-index: 1;
   }
@@ -28,21 +28,21 @@
 
   &__title {
     position: relative;
-    color: #fff;
+    color: #000;
     z-index: 1;
-    margin-bottom: 105px;
+    margin-bottom: 126.5px;
     margin-left: 19px;
   }
 
   &__para-text {
     max-width: 400px;
-    color: #fff;
+    color: #000;
     span {
       color: #5ca099;
       font-weight: bold;
     }
-    margin-left: 60px;
-    margin-bottom: 69px;
+    margin-left: 50px;
+    margin-bottom: 64px;
   }
 
   &__button-row {
@@ -60,7 +60,7 @@
 }
 
 @media (max-width: 600px) {
-  .welder {
+  .logistik {
     &__para-text {
       margin-left: 19px;
     }
@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 425px) {
-  .welder {
+  .logistik {
     &__subheading {
       text-align: center;
       font-size: 40px;

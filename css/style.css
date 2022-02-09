@@ -686,6 +686,7 @@ body._lock {
 .welder__para-text {
   max-width: 400px;
   color: #fff;
+  margin-left: 60px;
   margin-bottom: 69px;
 }
 
@@ -705,6 +706,12 @@ body._lock {
   margin-bottom: 183px;
 }
 
+@media (max-width: 600px) {
+  .welder__para-text {
+    margin-left: 19px;
+  }
+}
+
 @media (max-width: 425px) {
   .welder__subheading {
     text-align: center;
@@ -715,7 +722,7 @@ body._lock {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .welder__button-row {
+  .welder__button-row button {
     margin-bottom: 50px;
   }
 }
@@ -817,6 +824,9 @@ body._lock {
   .storage__title {
     margin-left: 19px;
   }
+  .storage__para-text {
+    margin-right: 19px;
+  }
   .storage__button-row {
     margin-right: 0;
   }
@@ -835,7 +845,96 @@ body._lock {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .storage__button-row {
+  .storage__para-text {
+    margin-left: 19px;
+  }
+  .storage__button-row button {
+    margin-bottom: 50px;
+  }
+}
+
+.logistik {
+  background-image: url(./../img/back-logist.png);
+  background-size: cover;
+}
+
+.logistik__row {
+  padding-top: 162.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logistik__subheading {
+  position: relative;
+  color: #000;
+  margin-bottom: -7px;
+  z-index: 1;
+}
+
+.logistik__subheading::before {
+  position: absolute;
+  content: "";
+  width: 113px;
+  height: 141px;
+  z-index: -1;
+  top: -39.5px;
+  left: 125.4px;
+  background: url(./../img/green-logo.png);
+}
+
+.logistik__title {
+  position: relative;
+  color: #000;
+  z-index: 1;
+  margin-bottom: 126.5px;
+  margin-left: 19px;
+}
+
+.logistik__para-text {
+  max-width: 400px;
+  color: #000;
+  margin-left: 50px;
+  margin-bottom: 64px;
+}
+
+.logistik__para-text span {
+  color: #5ca099;
+  font-weight: bold;
+}
+
+.logistik__button-row button {
+  background-color: #5ca099;
+  font-size: 15.5px;
+  color: #fff;
+  padding: 0px 24px;
+  border-radius: 2px;
+  height: 34px;
+  margin-right: 32px;
+  margin-bottom: 183px;
+}
+
+@media (max-width: 600px) {
+  .logistik__para-text {
+    margin-left: 19px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logistik__subheading {
+    text-align: center;
+    font-size: 40px;
+  }
+  .logistik__title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .logistik__button-row button {
     margin-bottom: 50px;
   }
 }

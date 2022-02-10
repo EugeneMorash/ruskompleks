@@ -1051,6 +1051,7 @@ body._lock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .callback-2__item {
@@ -1104,6 +1105,49 @@ body._lock {
   line-height: 23px;
   font-weight: 100;
   margin-left: 60px;
+}
+
+.callback-2__phone-hand {
+  content: "";
+  position: absolute;
+  width: 164px;
+  height: 198px;
+  background-image: url(./../img/handphone.png);
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  right: 300px;
+  bottom: 0;
+}
+
+.callback-2__phone-text {
+  font-size: 9px;
+  line-height: 12px;
+  padding-right: 30px;
+  padding-top: 127px;
+  padding-left: 62px;
+}
+
+.callback-2__pad-hand {
+  content: "";
+  position: absolute;
+  width: 178px;
+  height: 212px;
+  background-image: url(./../img/handpad.png);
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  right: 100px;
+  bottom: 0;
+}
+
+.callback-2__pad-text {
+  font-size: 9px;
+  line-height: 12px;
+  color: #fff;
+  padding-right: 30px;
+  padding-top: 117px;
+  padding-left: 62px;
 }
 
 .footer {

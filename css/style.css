@@ -179,6 +179,12 @@ a:hover {
           box-sizing: content-box;
 }
 
+.heading {
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 42px;
+}
+
 .subheading {
   font-family: "Archangelsk";
   font-size: 48px;
@@ -404,9 +410,6 @@ body._lock {
 }
 
 .page__heading {
-  font-size: 48px;
-  font-weight: 100;
-  line-height: 42px;
   margin-bottom: 9px;
 }
 
@@ -937,4 +940,30 @@ body._lock {
   .logistik__button-row button {
     margin-bottom: 50px;
   }
+}
+
+.welcome {
+  margin-bottom: 37px;
+}
+
+.welcome__heading {
+  margin-top: 35px;
+  margin-bottom: 29px;
+}
+
+.welcome__para-text1 {
+  margin: 0px auto;
+  max-width: 540px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.welcome__para-text1 span {
+  color: #5ca099;
+}
+
+.welcome__para-text2 {
+  margin: 0px auto;
+  max-width: 1098px;
+  text-align: center;
 }

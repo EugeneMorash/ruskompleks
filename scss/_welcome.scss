@@ -1,0 +1,23 @@
+.welcome {
+  &__heading {
+    margin-top: 35px;
+
+    margin-bottom: 29px;
+  }
+  &__para-text1 {
+    margin: 0px auto;
+    max-width: 540px;
+    text-align: center;
+    span {
+      color: #5ca099;
+    }
+    margin-bottom: 24px;
+  }
+
+  &__para-text2 {
+    margin: 0px auto;
+    max-width: 1098px;
+    text-align: center;
+  }
+  margin-bottom: 37px;
+}

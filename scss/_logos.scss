@@ -1,0 +1,42 @@
+.logos {
+  &__row {
+    display: flex;
+    align-items: center;
+    margin: 0px -30px;
+    flex-wrap: wrap;
+  }
+
+  &__column {
+    padding: 0px 30px;
+    flex: 0 1 20%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-bottom: 52px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .logos {
+    &__column {
+      flex: 0 1 25%;
+      margin: 0px auto;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .logos {
+    &__column {
+      flex: 0 1 33.33%;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .logos {
+    &__column {
+      flex: 0 1 50%;
+    }
+  }
+}

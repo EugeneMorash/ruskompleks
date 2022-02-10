@@ -19,3 +19,61 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    &__social-links {
+      font-size: 24px;
+      a {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 625px) {
+  .footer {
+    &__copyright {
+      font-size: 12px;
+    }
+    &__social-links {
+      font-size: 20px;
+      a {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .footer {
+    &__social-links {
+      font-size: 16px;
+      a {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 465px) {
+  .footer {
+    &__copyright {
+      font-size: 10px;
+    }
+    &__social-links {
+      font-size: 14px;
+      a {
+        margin-right: 7px;
+      }
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .footer {
+    &__logo-small {
+      display: none;
+    }
+  }
+}

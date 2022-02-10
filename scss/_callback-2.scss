@@ -33,7 +33,6 @@
       background-color: #5ca099;
       font-size: 15.5px;
       color: #fff;
-      // box-shadow: 1px 1.73px 5px #0c0e0f;
     }
 
     button:hover {
@@ -98,5 +97,79 @@
     padding-right: 30px;
     padding-top: 117px;
     padding-left: 62px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .callback-2 {
+    &__phone-hand {
+      right: 210px;
+    }
+    &__pad-hand {
+      right: 10px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .callback-2 {
+    &__item {
+      margin-bottom: 240px;
+    }
+
+    &__phone-hand {
+      left: 50px;
+    }
+    &__pad-hand {
+      right: 50px;
+    }
+  }
+}
+@media (max-width: 635px) {
+  .callback-2 {
+    &__row {
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      margin-bottom: 120px;
+    }
+
+    &__form {
+      input {
+        margin-bottom: 15px;
+      }
+      button {
+        margin-bottom: 15px;
+      }
+    }
+
+    &__phone-hand {
+      left: 10px;
+    }
+    &__pad-hand {
+      right: 10px;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .callback-2 {
+    &__text {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .callback-2 {
+    &__text {
+      font-size: 14px;
+    }
+    &__phone-hand {
+      left: 5px;
+    }
+    &__pad-hand {
+      right: 5px;
+    }
   }
 }

@@ -13,33 +13,35 @@
     margin-right: 51px;
   }
 
-  input {
-    width: 220px;
-    height: 34px;
-    box-shadow: 1px 1.73px 5px #0c0e0f;
-    margin-right: 9px;
-    padding: 0px 5px;
-  }
+  &__inputs {
+    input {
+      width: 220px;
+      height: 34px;
+      box-shadow: 1px 1.73px 5px #0c0e0f;
+      margin-right: 9px;
+      padding: 0px 5px;
+    }
 
-  input:focus {
-    box-shadow: 1px 1.73px 14px #0c0e0f;
-  }
+    input:focus {
+      box-shadow: 1px 1.73px 14px #0c0e0f;
+    }
 
-  button {
-    width: 126px;
-    height: 34px;
-    border-radius: 2px;
-    background-color: #5ca099;
-    font-size: 15.5px;
-    color: #fff;
-    box-shadow: 1px 1.73px 5px #0c0e0f;
-  }
+    button {
+      width: 126px;
+      height: 34px;
+      border-radius: 2px;
+      background-color: #5ca099;
+      font-size: 15.5px;
+      color: #fff;
+      box-shadow: 1px 1.73px 5px #0c0e0f;
+    }
 
-  button:hover {
-    box-shadow: 1px 1.73px 14px #0c0e0f;
-  }
-  button:focus {
-    box-shadow: 1px 1.73px 14px #0c0e0f;
+    button:hover {
+      box-shadow: 1px 1.73px 14px #0c0e0f;
+    }
+    button:focus {
+      box-shadow: 1px 1.73px 14px #0c0e0f;
+    }
   }
   margin-bottom: 46px;
 }
@@ -49,6 +51,11 @@
     &__text {
       font-size: 20px;
       line-height: 150%;
+    }
+    &__inputs {
+      input {
+        margin-bottom: 9px;
+      }
     }
   }
 }

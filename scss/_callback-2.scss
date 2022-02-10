@@ -1,0 +1,65 @@
+.callback-2 {
+  &__row {
+    display: flex;
+  }
+
+  &__column {
+  }
+
+  &__item {
+    margin-bottom: 63.5px;
+  }
+
+  &__form {
+    input {
+      width: 220px;
+      height: 34px;
+      border: 1px solid #5ca099;
+      box-shadow: 0.45px 0.89px 3px rgba($color: #0c0e0f, $alpha: 0.35);
+      margin-right: 9px;
+      padding: 0px 5px;
+      margin-bottom: 23px;
+    }
+
+    input:focus {
+      box-shadow: 0.9px 1px 5px rgba($color: #0c0e0f, $alpha: 0.7);
+    }
+
+    button {
+      width: 126px;
+      height: 34px;
+      border-radius: 2px;
+      background-color: #5ca099;
+      font-size: 15.5px;
+      color: #fff;
+      // box-shadow: 1px 1.73px 5px #0c0e0f;
+    }
+
+    button:hover {
+      box-shadow: 0.9px 1px 5px rgba($color: #0c0e0f, $alpha: 0.7);
+    }
+    button:focus {
+      box-shadow: 0.9px 1px 5px rgba($color: #0c0e0f, $alpha: 0.7);
+    }
+  }
+
+  &__caption {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 100;
+    margin-left: 60px;
+  }
+
+  &__phone-img {
+  }
+
+  &__pad-img {
+  }
+}

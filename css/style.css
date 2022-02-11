@@ -648,7 +648,7 @@ body._lock {
 }
 
 .welder {
-  background-image: url(./../img/back-welder.png);
+  background-image: url(./../img/back-welder.webp);
   background-size: cover;
 }
 
@@ -734,7 +734,7 @@ body._lock {
 }
 
 .storage {
-  background-image: url(./../img/back-pogruz.png);
+  background-image: url(./../img/back-pogruz.webp);
   background-size: cover;
 }
 
@@ -860,7 +860,7 @@ body._lock {
 }
 
 .logistik {
-  background-image: url(./../img/back-logist.png);
+  background-image: url(./../img/back-logist.webp);
   background-size: cover;
 }
 

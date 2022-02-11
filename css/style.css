@@ -286,6 +286,10 @@ button:focus {
   border: none;
 }
 
+.header__logo:focus {
+  border: none;
+}
+
 .header__menu {
   font-size: 15px;
   font-weight: 500;

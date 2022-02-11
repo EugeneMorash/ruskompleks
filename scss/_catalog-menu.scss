@@ -51,9 +51,9 @@
       left: 0;
     }
     img:hover {
-      animation: bounce 2.5s;
-      // animation-iteration-count: 5;
-      animation-iteration-count: infinite;
+      animation: bounce 2s;
+      animation-iteration-count: 10;
+      // animation-iteration-count: infinite;
     }
 
     margin-bottom: 15px;

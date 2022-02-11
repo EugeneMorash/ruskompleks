@@ -533,10 +533,10 @@ body._lock {
 }
 
 .catalog-menu__image img:hover {
-  -webkit-animation: bounce 2.5s;
-          animation: bounce 2.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  -webkit-animation: bounce 2s;
+          animation: bounce 2s;
+  -webkit-animation-iteration-count: 10;
+          animation-iteration-count: 10;
 }
 
 .catalog-menu__text {
@@ -1320,22 +1320,22 @@ body._lock {
 }
 
 @-webkit-keyframes bounce {
-  30% {
-    -webkit-transform: translateY(-10%);
-            transform: translateY(-10%);
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
-  75% {
+  100% {
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
   }
 }
 
 @keyframes bounce {
-  30% {
-    -webkit-transform: translateY(-10%);
-            transform: translateY(-10%);
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
-  75% {
+  100% {
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
   }

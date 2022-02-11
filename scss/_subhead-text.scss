@@ -1,0 +1,36 @@
+.subhead-text {
+  background-color: #5ca099;
+  margin-bottom: 75px;
+
+  &__subheading-text {
+    height: 41px;
+    font-size: 21.6px;
+    font-weight: 100;
+    line-height: 19px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1250px) {
+  .subhead-text {
+    &__subheading-text {
+      font-size: 16px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .subhead-text {
+    &__subheading-text {
+      font-size: 12px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .subhead-text {
+    &__subheading-text {
+      font-size: 10px;
+    }
+  }
+}

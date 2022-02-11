@@ -56,6 +56,12 @@
       margin-right: 32px;
       margin-bottom: 183px;
     }
+    button:hover {
+      box-shadow: 1px 1.73px 14px #fff;
+    }
+    button:focus {
+      box-shadow: 1px 1.73px 14px #fff;
+    }
   }
 }
 

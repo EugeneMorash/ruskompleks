@@ -165,6 +165,16 @@ a:hover {
   border-bottom: 2px solid #12a19a;
 }
 
+button:hover {
+  -webkit-box-shadow: 1px 1.73px 14px #0c0e0f;
+          box-shadow: 1px 1.73px 14px #0c0e0f;
+}
+
+button:focus {
+  -webkit-box-shadow: 1px 1.73px 14px #0c0e0f;
+          box-shadow: 1px 1.73px 14px #0c0e0f;
+}
+
 .wrapper {
   padding-top: 68px;
   min-height: 100%;
@@ -710,6 +720,16 @@ body._lock {
   height: 34px;
   margin-right: 32px;
   margin-bottom: 183px;
+}
+
+.welder__button-row button:hover {
+  -webkit-box-shadow: 1px 1.73px 14px #fff;
+          box-shadow: 1px 1.73px 14px #fff;
+}
+
+.welder__button-row button:focus {
+  -webkit-box-shadow: 1px 1.73px 14px #fff;
+          box-shadow: 1px 1.73px 14px #fff;
 }
 
 @media (max-width: 600px) {

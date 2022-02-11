@@ -20,6 +20,13 @@ a:hover {
   border-bottom: 2px solid #12a19a;
 }
 
+button:hover {
+  box-shadow: 1px 1.73px 14px #0c0e0f;
+}
+button:focus {
+  box-shadow: 1px 1.73px 14px #0c0e0f;
+}
+
 .wrapper {
   padding-top: $headerHeight + 17px;
   min-height: 100%;

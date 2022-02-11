@@ -828,12 +828,6 @@ body._lock {
   margin-bottom: 183px;
 }
 
-@media (max-width: 1300px) {
-  .storage__para-text {
-    color: #fff;
-  }
-}
-
 @media (max-width: 768px) {
   .storage__row {
     -webkit-box-align: start;

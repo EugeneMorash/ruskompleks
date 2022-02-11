@@ -532,6 +532,13 @@ body._lock {
   left: 0;
 }
 
+.catalog-menu__image img:hover {
+  -webkit-animation: bounce 2.5s;
+          animation: bounce 2.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .catalog-menu__text {
   position: relative;
 }
@@ -1309,5 +1316,27 @@ body._lock {
 @media (max-width: 440px) {
   .footer__logo-small {
     display: none;
+  }
+}
+
+@-webkit-keyframes bounce {
+  30% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  75% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes bounce {
+  30% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  75% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }

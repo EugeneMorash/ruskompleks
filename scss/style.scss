@@ -80,3 +80,12 @@ button:focus {
 
 // * ===== footer ===== * //
 @import "_footer";
+
+@keyframes bounce {
+  30% {
+    transform: translateY(-10%);
+  }
+  75% {
+    transform: translateY(0%);
+  }
+}

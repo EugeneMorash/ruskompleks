@@ -1,28 +1,73 @@
 .banner-search {
-  &__form {
-  }
-
   &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   &__column {
   }
 
   &__banner {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    background-image: url(./../img/banner.png);
+    // object-fit: cover;
   }
 
   &__banner-text {
+    font-size: 22px;
+    // line-height: 34px;
+    color: #fff;
+    margin-left: 99px;
+    margin-right: 136px;
   }
 
   &__banner-button {
+    width: 110px;
+    height: 27px;
+    background-color: #fff;
+    border-radius: 2px;
+    font-size: 15.6px;
+    line-height: 19px;
+    color: #000;
+    margin-right: 12px;
+    margin-top: 2.5px;
   }
 
   &__search {
   }
 
   &__input {
+    width: 220px;
+    height: 34px;
+    box-shadow: 1px 1.73px 5px #0c0e0f;
+    margin-right: 9px;
+    padding: 0px 5px;
+  }
+
+  &__input:focus {
+    box-shadow: 1px 1.73px 14px #0c0e0f;
   }
 
   &__search-button {
+    width: 126px;
+    height: 34px;
+    border-radius: 2px;
+    background-color: #5ca099;
+    font-size: 15.5px;
+    color: #fff;
+    box-shadow: 1px 1.73px 5px #0c0e0f;
   }
+
+  &__button:hover {
+    box-shadow: 1px 1.73px 14px #0c0e0f;
+  }
+
+  &__button:focus {
+    box-shadow: 1px 1.73px 14px #0c0e0f;
+  }
+
+  margin-bottom: 22px;
 }

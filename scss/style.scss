@@ -6,6 +6,7 @@
 
 // * ===== variables ===== * //
 $headerHeight: 51px;
+$smallHeaderHeight: 18px;
 $headerBackgroundColor: #fff;
 
 // * ===== blocks ===== * //
@@ -62,6 +63,7 @@ button:focus {
 }
 
 // * ===== header ===== * //
+@import "_small-header";
 @import "_header";
 @import "_header-menu";
 

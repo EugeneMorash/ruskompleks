@@ -7,8 +7,6 @@ body._lock {
   }
 
   &__list {
-    // display: flex;
-    // align-items: center;
   }
 
   &__item {
@@ -17,7 +15,6 @@ body._lock {
 
   &__link {
     color: #000;
-    // font-size: 18px;
   }
 
   &__icon {
@@ -44,13 +41,9 @@ body._lock {
       position: fixed;
       width: 100%;
 
-      top: 0;
+      top: $smallHeaderHeight;
       left: -100%;
 
-      // left: 0;
-      // transform: translate(-100%, 0);
-
-      // height: 100%;
       height: calc(100% - #{$headerHeight});
       margin-top: $headerHeight;
 
@@ -66,7 +59,7 @@ body._lock {
         min-width: 100%;
         top: 0;
         left: 0;
-        height: $headerHeight + 17px;
+        height: $headerHeight + $smallHeaderHeight;
         background-color: $headerBackgroundColor;
         // box-shadow: 0px 0px 10px 1px #000;
         z-index: 9;
@@ -144,6 +137,7 @@ body._lock {
       }
     }
   }
+
   @media (max-width: 450px) {
     .header {
       &__logo {

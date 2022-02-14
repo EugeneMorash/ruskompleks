@@ -1,0 +1,37 @@
+.small-header {
+  background-color: #f5f5f5;
+  position: fixed;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 990;
+
+  &__list {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+  }
+
+  &__contact {
+    margin-left: 21px;
+  }
+  &__link {
+    color: #7d8084;
+  }
+  &__link:hover {
+    color: #12a19a;
+  }
+}
+
+@media (max-width: 660px) {
+  .small-header {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      height: $smallHeaderHeight * 2;
+    }
+    &__contact {
+      margin-left: 15px;
+    }
+  }
+}

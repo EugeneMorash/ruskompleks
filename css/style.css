@@ -216,11 +216,9 @@ button:focus {
   background-color: #f5f5f5;
   position: fixed;
   min-width: 100%;
-  top: 0px;
+  top: 0;
   left: 0;
-  z-index: 900;
-  font-size: 14px;
-  line-height: 150%;
+  z-index: 990;
 }
 
 .small-header__list {
@@ -230,6 +228,7 @@ button:focus {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  font-size: 14px;
 }
 
 .small-header__contact {
@@ -244,11 +243,25 @@ button:focus {
   color: #12a19a;
 }
 
+@media (max-width: 660px) {
+  .small-header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 36px;
+  }
+  .small-header__contact {
+    margin-left: 15px;
+  }
+}
+
 .header {
   background-color: #fff;
   position: fixed;
   min-width: 100%;
-  top: 17px;
+  top: 18px;
   left: 0;
   z-index: 900;
   -webkit-box-shadow: 0px 0px 3px 0.1px rgba(0, 0, 0, 0.1);
@@ -291,6 +304,12 @@ button:focus {
   font-weight: 500;
 }
 
+@media (max-width: 660px) {
+  .header {
+    top: 36px;
+  }
+}
+
 body._lock {
   overflow: hidden;
 }
@@ -327,7 +346,7 @@ body._lock {
   .menu__body {
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 18px;
     left: -100%;
     height: calc(100% - 51px);
     margin-top: 51px;
@@ -343,7 +362,7 @@ body._lock {
     min-width: 100%;
     top: 0;
     left: 0;
-    height: 68px;
+    height: 69px;
     background-color: #fff;
     z-index: 9;
   }

@@ -5,6 +5,8 @@
   top: 0px;
   left: 0;
   z-index: 900;
+  font-size: 14px;
+  line-height: 150%;
   &__list {
     display: flex;
     justify-content: end;
@@ -12,11 +14,14 @@
 
   &__contact {
     margin-left: 21px;
-    font-size: 12px;
-    line-height: 17px;
+    // font-size: 14px;
+    // line-height: 150%;
   }
   &__link {
     color: #7d8084;
+  }
+  &__link:hover {
+    color: #12a19a;
   }
 }
 

@@ -219,6 +219,8 @@ button:focus {
   top: 0px;
   left: 0;
   z-index: 900;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 .small-header__list {
@@ -232,12 +234,14 @@ button:focus {
 
 .small-header__contact {
   margin-left: 21px;
-  font-size: 12px;
-  line-height: 17px;
 }
 
 .small-header__link {
   color: #7d8084;
+}
+
+.small-header__link:hover {
+  color: #12a19a;
 }
 
 .header {

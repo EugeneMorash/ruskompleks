@@ -2,6 +2,7 @@
   &__heading {
     margin: 35px 10px 29px 10px;
     text-align: center;
+    line-height: 55px;
   }
   &__para-text1 {
     margin: 0px auto;
@@ -25,6 +26,7 @@
   .welcome {
     &__heading {
       font-size: 40px;
+      line-height: 42px;
     }
   }
 }

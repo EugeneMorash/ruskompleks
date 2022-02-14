@@ -232,7 +232,7 @@ button:focus {
 
 .small-header__contact {
   margin-left: 21px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 17px;
 }
 
@@ -576,6 +576,7 @@ body._lock {
 @media (max-width: 1250px) {
   .subhead-text__subheading-text {
     font-size: 16px;
+    text-align: center;
   }
 }
 
@@ -1104,6 +1105,7 @@ body._lock {
 .welcome__heading {
   margin: 35px 10px 29px 10px;
   text-align: center;
+  line-height: 55px;
 }
 
 .welcome__para-text1 {
@@ -1126,6 +1128,7 @@ body._lock {
 @media (max-width: 1270px) {
   .welcome__heading {
     font-size: 40px;
+    line-height: 42px;
   }
 }
 
@@ -1255,7 +1258,6 @@ body._lock {
 .callback-2__text {
   font-size: 17px;
   line-height: 23px;
-  font-weight: 100;
   margin-left: 60px;
 }
 
@@ -1439,6 +1441,9 @@ body._lock {
 @media (max-width: 440px) {
   .footer__logo-small {
     display: none;
+  }
+  .footer__social-links {
+    font-size: 16px;
   }
 }
 

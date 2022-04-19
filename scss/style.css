@@ -221,7 +221,7 @@ button:focus {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .small-header__contact {

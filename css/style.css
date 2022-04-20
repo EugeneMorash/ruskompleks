@@ -157,19 +157,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-a:focus {
-  border-bottom: 2px solid #12a19a;
-}
-
+a:focus,
 a:hover {
   border-bottom: 2px solid #12a19a;
 }
 
-button:hover {
-  -webkit-box-shadow: 1px 1.73px 14px #0c0e0f;
-          box-shadow: 1px 1.73px 14px #0c0e0f;
-}
-
+button:hover,
 button:focus {
   -webkit-box-shadow: 1px 1.73px 14px #0c0e0f;
           box-shadow: 1px 1.73px 14px #0c0e0f;
@@ -197,7 +190,7 @@ button:focus {
 
 .subheading {
   font-family: "Archangelsk";
-  font-size: 48px;
+  font-size: 100px;
   line-height: 48px;
 }
 
@@ -228,7 +221,8 @@ button:focus {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .small-header__contact {
@@ -579,7 +573,7 @@ body._lock {
 
 .subhead-text {
   background-color: #5ca099;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
 }
 
 .subhead-text__subheading-text {
@@ -629,7 +623,7 @@ body._lock {
       -ms-flex: 0 1 25%;
           flex: 0 1 25%;
   padding: 0px 60px;
-  margin-bottom: 48px;
+  margin-bottom: 25px;
 }
 
 .catalog-menu__item {
@@ -1491,3 +1485,4 @@ body._lock {
             transform: translateY(0%);
   }
 }
+/*# sourceMappingURL=style.css.map */

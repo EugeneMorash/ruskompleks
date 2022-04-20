@@ -573,7 +573,7 @@ body._lock {
 
 .subhead-text {
   background-color: #5ca099;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .subhead-text__subheading-text {
@@ -1485,4 +1485,3 @@ body._lock {
             transform: translateY(0%);
   }
 }
-/*# sourceMappingURL=style.css.map */

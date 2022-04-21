@@ -10,7 +10,7 @@
   &__column {
     flex: 0 1 25%;
     padding: 0px 60px;
-    margin-bottom: 25px;
+    margin-bottom: 36px;
   }
 
   &__item {
@@ -75,6 +75,14 @@
     top: -31px;
     left: 50%;
     transform: translate(-50%, 0%);
+  }
+}
+
+@media (max-height: 767px) {
+  .catalog-menu {
+    &__column {
+      margin-bottom: 15px;
+    }
   }
 }
 
